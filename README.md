@@ -13,7 +13,8 @@ Now to operate multiple screens in a terminal (Needed to operate in the same ima
 ```
     Shift+Ctrl+B+\%     OR   Shift+Ctrl+B+"
 ```
-Host Terminal
+Host Terminal <br />
+Add the below lines to .bashrc of host
 ```
     export ROS_MASTER_URI=http://172.17.0.2:11311 # Fill in according to the ipconfig result of docker
     export ROS_IP=192.168.1.1
